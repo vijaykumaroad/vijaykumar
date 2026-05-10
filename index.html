@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vijay Kumar | CS Student @ LUMS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">VK<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mob-link">About</a>
+      <a href="#skills" class="mob-link">Skills</a>
+      <a href="#projects" class="mob-link">Projects</a>
+      <a href="#experience" class="mob-link">Experience</a>
+      <a href="#achievements" class="mob-link">Achievements</a>
+      <a href="#contact" class="mob-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-tag">👋 Hey there, I'm</p>
+      <h1 class="hero-name">Vijay<br/><span class="name-accent">Kumar</span></h1>
+      <div class="hero-roles">
+        <span class="role-chip">CS @ LUMS</span>
+        <span class="role-chip">Software Engineering</span>
+        <span class="role-chip">Embedded Systems</span>
+        <span class="role-chip">AI / ML</span>
+      </div>
+      <p class="hero-bio">
+        4th semester CS student at LUMS building things with code — from Python scripts to Arduino hardware. 
+        Fully funded scholar, national science finalist, chess medalist, and basketball player from Karachi.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="resume.pdf" class="btn-outline" download>Download CV</a>
+      </div>
+      <div class="hero-socials">
+        <a href="mailto:vijaykumar.soomro@gmail.com" title="Email">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </a>
+        <a href="https://github.com/" target="_blank" title="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </a>
+        <a href="https://linkedin.com/" target="_blank" title="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-ring">
+        <img src="profile.jpg" alt="Profile picture" class="avatar-img">
+      </div>
+      <div class="float-badge badge-top">LUMS '28</div>
+      <div class="float-badge badge-bot">Karachi 🇵🇰</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-inner">
+      <div class="section-label">01 — About</div>
+      <h2 class="section-title">A bit about me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I grew up in rural Sindh, was a consistent topper throughout school, and earned a <strong>fully funded merit + need based scholarship</strong> to LUMS — one of Pakistan's top universities. 
+          </p>
+          <p>
+            Before LUMS, I spent four years at NJV Government Higher Secondary School in Karachi on a merit scholarship, where I led a student party, organized a mega Holi event with minority ministers, captained a basketball team, and won a national science competition with a ₨4 lac prize.
+          </p>
+          <p>
+            I'm deeply interested in <strong>software engineering, embedded systems,</strong> and applying computer science to real-world problems. I also care a lot about education equity — I've mentored 50+ students and led content translation projects to make STEM accessible in Sindhi.
+          </p>
+          <div class="about-details">
+            <div class="detail-row"><span class="detail-label">University</span><span>LUMS — BS Computer Science</span></div>
+            <div class="detail-row"><span class="detail-label">Semester</span><span>4th (Spring 2025-26)</span></div>
+            <div class="detail-row"><span class="detail-label">Location</span><span>Lahore, Pakistan</span></div>
+            <div class="detail-row"><span class="detail-label">Email</span><span>vijaykumar.soomro@gmail.com</span></div>
+            <div class="detail-row"><span class="detail-label">WhatsApp</span><span>+92 315 3418920</span></div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-num">120<span class="stat-unit">%</span></div>
+            <div class="stat-desc">Fully funded scholarship at LUMS</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">94<span class="stat-unit">%</span></div>
+            <div class="stat-desc">Matric score — school topper</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">50<span class="stat-unit">+</span></div>
+            <div class="stat-desc">Students mentored at NOPSCS</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">STEM</div>
+            <div class="stat-desc">Pakistan Science Foundation - National</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-title">What I work with</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Programming</h3>
+          <div class="skill-pills">
+            <span class="pill pill-blue">Python</span>
+            <span class="pill pill-blue">C++</span>
+            <span class="pill pill-blue">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Core CS</h3>
+          <div class="skill-pills">
+            <span class="pill pill-purple">Algorithms</span>
+            <span class="pill pill-purple">Data Structures</span>
+            <span class="pill pill-purple">OOP</span>
+            <span class="pill pill-purple">Discrete Math</span>
+            <span class="pill pill-purple">Probability</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Embedded Systems</h3>
+          <div class="skill-pills">
+            <span class="pill pill-teal">Arduino</span>
+            <span class="pill pill-teal">Microcontrollers</span>
+            <span class="pill pill-teal">Sensors & Motors</span>
+            <span class="pill pill-teal">IoT (basic)</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Tools</h3>
+          <div class="skill-pills">
+            <span class="pill pill-orange">Git & GitHub</span>
+            <span class="pill pill-orange">VS Code</span>
+            <span class="pill pill-orange">Arduino IDE</span>
+            <span class="pill pill-orange">WordPress</span>
+            <span class="pill pill-orange">LaTeX</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Design</h3>
+          <div class="skill-pills">
+            <span class="pill pill-pink">Graphic Design</span>
+            <span class="pill pill-pink">Branding</span>
+            <span class="pill pill-pink">Typography</span>
+            <span class="pill pill-pink">Poster Design</span>
+            <span class="pill pill-pink">Video Editing</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">AI / ML</h3>
+          <div class="skill-pills">
+            <span class="pill pill-green">Foundations of AI</span>
+            <span class="pill pill-green">Machine Learning (basics)</span>
+            <span class="pill pill-green">Python ML libraries</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="courses-box">
+        <h3 class="courses-title">Current Courses (Spring 2025-26)</h3>
+        <div class="courses-row">
+          <span class="course-tag">CS 310 — Algorithms</span>
+          <span class="course-tag">CS 382 — Network-Centric Computing</span>
+          <span class="course-tag">MATH 102 — Calculus II</span>
+          <span class="course-tag">MATH 230 — Probability</span>
+          <span class="course-tag">SS 100 — Writing & Communication</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <div class="section-label">03 — Projects</div>
+      <h2 class="section-title">Things I've built</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-icon">🐍</div>
+          <h3 class="project-title">Python Tic-Tac-Toe</h3>
+          <p class="project-desc">Console-based game built with Python using modular logic design. My final project for the CEP Intro to Python course at NJV School in 2022.</p>
+          <div class="project-tags">
+            <span class="ptag">Python</span>
+            <span class="ptag">OOP</span>
+            <span class="ptag">Game Logic</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/" target="_blank" class="plink">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">⏱️</div>
+          <h3 class="project-title">Arduino 7-Segment Clock</h3>
+          <p class="project-desc">A single-digit seven-segment display clock showing hours and minutes in timed durations. Built during the CEP Robotics course in 2023 — learned to control LED segments via Arduino.</p>
+          <div class="project-tags">
+            <span class="ptag">Arduino</span>
+            <span class="ptag">Hardware</span>
+            <span class="ptag">C++</span>
+            <span class="ptag">Embedded</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="plink">View Details →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🏀</div>
+          <h3 class="project-title">Basketball Scoreboard System</h3>
+          <p class="project-desc">Wi-Fi controlled scoreboard using seven-segment displays for a basketball tournament. Collaborated with teacher — learned wifi-arduino integration and multi-digit segment control.</p>
+          <div class="project-tags">
+            <span class="ptag">Arduino</span>
+            <span class="ptag">WiFi Module</span>
+            <span class="ptag">7-Segment</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="plink">View Details →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🌐</div>
+          <h3 class="project-title">Web Development (Self-Learning)</h3>
+          <p class="project-desc">Built WordPress-based websites through self-study via YouTube courses. Practiced frontend structuring, layouts, and content management systems.</p>
+          <div class="project-tags">
+            <span class="ptag">WordPress</span>
+            <span class="ptag">HTML/CSS</span>
+            <span class="ptag">Frontend</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="plink">View Details →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🎥</div>
+          <h3 class="project-title">Sindhi Science Content Translation</h3>
+          <p class="project-desc">Co-founded a project translating 6th–8th grade science lectures from English to Sindhi. Led a team with vocalists and video editors to subtitle educational YouTube content.</p>
+          <div class="project-tags">
+            <span class="ptag">Video Editing</span>
+            <span class="ptag">Education</span>
+            <span class="ptag">Leadership</span>
+            <span class="ptag">Sindhi</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="plink">View Project →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / TIMELINE -->
+  <section id="experience" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-label">04 — Experience</div>
+      <h2 class="section-title">Journey so far</h2>
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">2025 – Present</div>
+          <div class="tl-card">
+            <div class="tl-role">Director, Media & Design</div>
+            <div class="tl-org">Hum-Aahang Society, LUMS</div>
+            <p>Led design and media operations — managed branding, posters, digital content, and campaigns for society events and cultural programs.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">2025</div>
+          <div class="tl-card">
+            <div class="tl-role">Academic Mentor & Teaching Assistant</div>
+            <div class="tl-org">NOP SCS Program, LUMS</div>
+            <p>Mentored 50+ incoming students from underserved backgrounds during the National Outreach Programme. Assisted with LCAT preparation, orientation sessions, and peer learning for a class of 52 students.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">2022 – 2024</div>
+          <div class="tl-card">
+            <div class="tl-role">Student Leader & Event Organizer</div>
+            <div class="tl-org">NJV Higher Secondary School, Karachi</div>
+            <p>Led the TTS party in school council elections — secured 170+ votes from ~1000 students. Organized the annual Holi event with minority minister participation. Managed student trips including a mega trip to Hingol Park, Balochistan.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">Post-Matric 2022</div>
+          <div class="tl-card">
+            <div class="tl-role">Content Translation Project Lead</div>
+            <div class="tl-org">Independent Initiative</div>
+            <p>Co-founded a team to translate STEM educational content into Sindhi. Managed a team with vocalists and video editors — edited videos and subtitled YouTube lectures for grades 6-8.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">2021 – 2023</div>
+          <div class="tl-card">
+            <div class="tl-role">CEP Courses</div>
+            <div class="tl-org">NJV Continued Enrichment Programme</div>
+            <p>Completed Graphic Design (2021), Intro to Python (2022), and Robotics (2023) courses. Each ended with a hands-on project — from tic-tac-toe to Arduino scoreboard systems.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">2020 – 2024</div>
+          <div class="tl-card">
+            <div class="tl-role">Student on Merit Scholarship</div>
+            <div class="tl-org">NJV Higher Secondary School, Karachi (SEF)</div>
+            <p>Lived in school hostel for 4 years. Scored 94% in Matric (school topper) and 80% in Intermediate. Chose engineering (Physics, CS, Chemistry, Math) over medical stream.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section">
+    <div class="section-inner">
+      <div class="section-label">05 — Achievements</div>
+      <h2 class="section-title">Highlights</h2>
+      <div class="ach-grid">
+
+        <div class="ach-card">
+          <div class="ach-icon">🎓</div>
+          <div class="ach-content">
+            <div class="ach-title">120% Fully Funded Scholarship</div>
+            <div class="ach-sub">LUMS — Merit + Need Based</div>
+          </div>
+        </div>
+
+        <div class="ach-card">
+          <div class="ach-icon">🏆</div>
+          <div class="ach-content">
+            <div class="ach-title">Pakistan Science Foundation</div>
+            <div class="ach-sub">National finalist — ₨4 Lac cash prize</div>
+          </div>
+        </div>
+
+        <div class="ach-card">
+          <div class="ach-icon">♟️</div>
+          <div class="ach-content">
+            <div class="ach-title">Silver Medal — Chess</div>
+            <div class="ach-sub">Karachi Open Chess Tournament (2nd position)</div>
+          </div>
+        </div>
+
+        <div class="ach-card">
+          <div class="ach-icon">🥇</div>
+          <div class="ach-content">
+            <div class="ach-title">Student of the Year</div>
+            <div class="ach-sub">NJV School — Academic + Extracurricular</div>
+          </div>
+        </div>
+
+        <div class="ach-card">
+          <div class="ach-icon">📋</div>
+          <div class="ach-content">
+            <div class="ach-title">Admission Offers from 4 Top Universities</div>
+            <div class="ach-sub">LUMS, NUST, GIKI, IBA — chose LUMS on scholarship</div>
+          </div>
+        </div>
+
+        <div class="ach-card">
+          <div class="ach-icon">📚</div>
+          <div class="ach-content">
+            <div class="ach-title">Selected for NOP LUMS</div>
+            <div class="ach-sub">National Outreach Programme — LCAT training, 2023</div>
+          </div>
+        </div>
+
+        <div class="ach-card">
+          <div class="ach-icon">🏫</div>
+          <div class="ach-content">
+            <div class="ach-title">TaleemCity Position Holder Award</div>
+            <div class="ach-sub">Karachi Board Matric — position holder list</div>
+          </div>
+        </div>
+
+        <div class="ach-card">
+          <div class="ach-icon">🏀</div>
+          <div class="ach-content">
+            <div class="ach-title">NJV Basketball Team</div>
+            <div class="ach-sub">Played 4 Karachi-level tournaments</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="section-inner contact-inner">
+      <div class="section-label">06 — Contact</div>
+      <h2 class="section-title">Get in touch</h2>
+      <p class="contact-sub">Whether it's a project, opportunity, or just to say hi — my inbox is open.</p>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-info">
+            <div class="contact-label">Personal Email</div>
+            <a href="mailto:vijaykumar.soomro@gmail.com">vijaykumar.soomro@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">🎓</div>
+          <div class="contact-info">
+            <div class="contact-label">LUMS Email</div>
+            <a href="mailto:28100445@lums.edu.pk">28100445@lums.edu.pk</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">📱</div>
+          <div class="contact-info">
+            <div class="contact-label">WhatsApp</div>
+            <a href="https://wa.me/923153418920">+92 315 3418920</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">💼</div>
+          <div class="contact-info">
+            <div class="contact-label">LinkedIn</div>
+            <a href="https://linkedin.com/in/vijaykumarsoomro" target="_blank">linkedin.com/in/vijaykumar</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="mailto:vijaykumar.soomro@gmail.com" class="btn-primary btn-big">Send me an email →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-name">Vijay Kumar</span>
+      <span class="footer-copy">© 2025 · Built with ❤️ from Karachi to Lahore</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
